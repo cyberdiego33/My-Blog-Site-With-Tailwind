@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="p-3 px-8 bg-slate-50 min-h-screen"> 
+   <header class="flex justify-between">
+    <p class="font-bold text-cyan-600">My Blog</p>
+    <nav class="flex gap-6 justify-between lg:gap-12">
+        <li class="list-none">Home</li>
+        <li class="list-none">About</li>
+        <li class="list-none">Contact</li>
+    </nav>
+   </header>
+
+   <main >
+    <h1 class="mt-10 mb-8  font-bold text-3xl md:text-4xl">
+        Welcome to my blog!
+    </h1>
+
+    <section class="sm:flex gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="p-6 bg-white shadow-sm rounded-lg space-y-2">
+                <p class="font-semibold">
+                    How to Master Tailwind CSS
+                </p>
+                <p>
+                    Learn how to efficiently use Tailwind CSS to create stunning designs with minimak effort...
+                </p>
+                <p class="text-cyan-600 font-semibold">Read more</p>
+            </div>
+
+            <div class="p-6 bg-white shadow-sm rounded-lg space-y-2">
+                <p class="font-semibold">Top Tips for Responsive Design</p>
+                <p>
+                    Responsive design is crucial in modern web development. Discover practical tips to improve your designs...
+                </p>
+                <p class="text-cyan-600 font-semibold">Read more</p>
+            </div>
+
+            <div class="p-6 bg-white shadow-sm rounded-lg space-y-2">
+                <p class="font-semibold">Understanding Utility-First CSS</p>
+                <p>
+                    Dive into the utility-first CSS approach and see how it can simplify your workflow...
+                </p>
+                <p class="text-cyan-600 font-semibold">Read more</p>
+            </div>
+
+            <div class="p-6 bg-white shadow-sm rounded-lg space-y-2">
+                <p class="font-semibold">Beginner's Guide to Web Accessibility</p>
+                <p>
+                    Ensure your website is accessible to everyone with this guide...
+                </p>
+                <p class="text-cyan-600 font-semibold">Read more</p>
+            </div>
+
+            <div class="p-6 bg-white shadow-sm rounded-lg space-y-2">
+                <p class="font-semibold">CSS Grid vs Flexbox</p>
+                <p>
+                    What should you use CSS Grid or Flexbox? Learn the key differences and best use cases...
+                </p>
+                <p class="text-cyan-600 font-semibold">Read more</p>
+            </div>
+
+            <div class="p-6 bg-white shadow-sm rounded-lg space-y-2">
+                <p class="font-semibold">10 Must-Know HTML Tips</p>
+                <p>
+                    Boost your productivity with these 10 essential HTML tips for developers...
+                </p>
+                <p class="text-cyan-600 font-semibold">Read more</p>
+            </div> 
+        </div>
+
+        <div class="featured min-w-[280px]">
+            <p class="text-xl font-semibold text-cyan-600">featured Posts</p>
+            <ul>
+                <li class="text-sm py-2 border-b">How to Master Tailwind CSS in Record Time</li>
+                <li class="text-sm py-2 border-b">Top Tips for Designing Responsive Websites</li>
+                <li class="text-sm py-2 border-b">CSS Grid vs Flexbox: Which One to Use?</li>
+                <li class="text-sm py-2 border-b">Web Accessibility Made Easy for Beginners</li>
+                <li class="text-sm py-2 border-b">10 Must-Know HTML and CSS Tricks for Developers</li>
+            </ul>
+        </div>
+    </section>
+   </main>
+</body>
+</html>
